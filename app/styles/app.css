@@ -7,4 +7,11 @@ body {
   background: whitesmoke;
   border: 1px solid gainsboro;
   padding: 20px;
+  margin: 10px;
+}
+
+#my-links ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
