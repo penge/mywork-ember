@@ -10,8 +10,16 @@ body {
   margin: 10px;
 }
 
-#my-links ul {
+ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+#merck-news {
+  width: 400px;
+}
+
+.news-item {
+  padding: 15px;
 }

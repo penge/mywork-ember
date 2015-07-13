@@ -14,6 +14,7 @@ export default Ember.Route.extend({
           url: 'http://finance.yahoo.com/q?s=MRK'
         },
       ],
+      news: this.store.findAll('news'),
     });
   }
 });
