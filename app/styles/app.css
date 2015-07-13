@@ -1,0 +1,10 @@
+body {
+  font-family: Arial;
+}
+
+.block {
+  float: left;
+  background: whitesmoke;
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
