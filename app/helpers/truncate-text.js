@@ -7,7 +7,7 @@ export function truncateText(params, hash) {
   if (text.length < limit) {
     return text;
   } else {
-    return text.substring(0, limit).trim() + '...'
+    return text.substring(0, limit).trim() + '...';
   }
 }
 
