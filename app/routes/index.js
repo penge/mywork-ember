@@ -14,9 +14,9 @@ export default Ember.Route.extend({
           url: 'http://finance.yahoo.com/q?s=MRK'
         },
       ],
-      news: this.store.find('news', { category: "global" }),
-      eucan: this.store.find('news', { category: "eucan" }),
-      it: this.store.find('news', { category: "it" }),
+      news: this.store.query('news', { category: "global" }),
+      eucan: this.store.query('news', { category: "eucan" }),
+      it: this.store.query('news', { category: "it" }),
     });
   }
 });

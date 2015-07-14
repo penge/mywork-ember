@@ -2,7 +2,7 @@
 
   <h1>Merck News</h1>
 
-  {{#each item in news}}
+  {{#each news as |item|}}
     {{merck-news-item item=item}}
   {{/each}}
 

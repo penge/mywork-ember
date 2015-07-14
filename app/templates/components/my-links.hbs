@@ -3,7 +3,7 @@
   <h1>My Links</h1>
 
   <ul>
-    {{#each link in links}}
+    {{#each links as |link|}}
       <a href="{{link.url}}">{{link.title}}</a><br>
     {{/each}}
   </ul>

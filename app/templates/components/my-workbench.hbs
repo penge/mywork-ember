@@ -5,7 +5,7 @@
   <h4>Next year Economic model</h4>
 
   <p>
-    {{#each economic in economics}}
+    {{#each economics as |economic|}}
       <b>{{economic.title}}:</b> {{economic.value}}%<br>
     {{/each}}
   </p>

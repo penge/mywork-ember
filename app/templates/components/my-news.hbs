@@ -2,7 +2,7 @@
 
   <h1>{{title}}</h1>
 
-  {{#each item in news}}
+  {{#each news as |item|}}
     <div class="news-item">
       <a href="{{item.url}}">{{item.title}}</a>
       <div class="date-time">{{date-time item.timestamp}}</div>
